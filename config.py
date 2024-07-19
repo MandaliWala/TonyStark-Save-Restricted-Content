@@ -13,4 +13,4 @@ API_HASH = os.environ.get("API_HASH", "c042ac8604791a187b90be6684993e2b
 ")
 
 #Database 
-DB_URI = os.environ.get("DB_URI", "")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://fowardbot:fowardbot@cluster0.qjwunlh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
