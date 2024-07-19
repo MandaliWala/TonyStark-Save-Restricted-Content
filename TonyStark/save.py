@@ -66,7 +66,7 @@ def progress(current, total, message, type):
 @Client.on_message(filters.command(["start"]))
 async def send_start(client: Client, message: Message):
     buttons = [[
-        InlineKeyboardButton("❣️ Developer", url = "https://t.me/jairamhu")
+        InlineKeyboardButton("❣️ Developer", url ='https://t.me/jairamhu')
     ],[
         InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/movie_blast_requst '),
         InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/movie_blast_official')
