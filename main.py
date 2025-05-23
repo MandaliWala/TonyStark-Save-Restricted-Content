@@ -3,7 +3,6 @@
 # Ask Doubt on telegram @Tony_Stark_75
 
 from pyrogram import Client
-from pyromod import listen
 from config import API_ID, API_HASH, BOT_TOKEN
 
 class Bot(Client):
